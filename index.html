@@ -15,7 +15,7 @@
     <div class="content">
 
         <h1>
-            When can I see a certain satellite?
+            <p id="h1">When can I see a certain satellite?</p>
         </h1>
         
         <div class="section">
@@ -26,20 +26,21 @@
             </div>
             <div class="row">
                 <label>Mapbox API Key</label>
-                <input id="api-key" />
+                <input id="api-key" placeholder="Insert your API key"/>
             </div>
             <div class="row">
                 <label>Address</label>
-                <input id="address" />
+                <input id="address" placeholder="City, State"/>
             </div>
             <div class="row">
                 <label>Satellite NORAD</label>
-                <input id="norad" />
+                <input id="norad" placeholder="Satellite ID"/>
             </div>
             <div class="row">
                 <button id="search">
                     Search
                 </button>
+                <button id="search1"><a class="link" target="_blank" href="https://i.ytimg.com/vi/27AeZMUJL6g/maxresdefault.jpg ">NASA Website</a></button>
             </div>
         </div>
 
@@ -49,6 +50,7 @@
                     Notable Satellites
                 </h2>
             </div>
+
             <div class="row">
                 <div class="title">
                     <b>Name</b>
@@ -57,6 +59,7 @@
                     <b>NORAD (Satellite ID)</b>
                 </div>
             </div>
+
             <div class="row">
                 <div class="item">
                     Int. Space Station
@@ -65,6 +68,7 @@
                     25544
                 </div>
             </div>
+
             <div class="row">
                 <div class="item">
                     Hubble Space Telescope
@@ -85,7 +89,9 @@
                 <b>Find more of the brightest satellites' NORAD IDs&nbsp;<a href="https://www.n2yo.com/satellites/?c=1">here</a>.</b>
             </div>
         </div>
+        <div id="results">
 
+        </div>
     </div>
 
     <script src="apiKey.js"></script>

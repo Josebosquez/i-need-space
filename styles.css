@@ -1,19 +1,23 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color: #03045e;
+    color: black;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: #caf0f8;
-    /* background-image: url(https://i.pinimg.com/originals/27/ef/26/27ef26dae43b05d86362fd2c246f148e.jpg); */
+    background-image: url(https://cdn.mos.cms.futurecdn.net/XKRX6MbwHQEbqhvqjMPyAa-1200-80.jpg);
+    background-blend-mode:initial;
 }
 
 h1, h2 {
     font-family: 'Orelega One', cursive;
 }
 
+#h1{
+    color: gold;
+}
 h2 {
     margin: 0;
 }
@@ -34,7 +38,7 @@ h2 {
     border-radius: 3px;
     width: fit-content;
     margin-bottom: 24px;
-    background-color: #90e0ef;
+    background-color: white;
 }
 
 .row {
@@ -58,7 +62,7 @@ input {
     justify-self: flex-end;
     font-size: 14px;
     height: 24px;
-    background-color: #caf0f8;
+    background-color: lightgrey;
     outline: none;
     border: none;
     padding: 3px 6px;
@@ -66,7 +70,7 @@ input {
 }
 
 button {
-    background-color: #03045e;
+    background-color:black;
     color: white;
     outline: none;
     border: none;
@@ -78,5 +82,9 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 0 20px #caf0f8;
+    box-shadow: 0 0 20px black;
+}
+
+.link {
+    color: white;
 }
